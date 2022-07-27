@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+</head>
+<body style="text-align:center ; background-image: url('https://th.bing.com/th/id/R.9275f0ffa129a99d0ae2ead3e6cafb49?rik=V013I4yBdgpOOA&riu=http%3a%2f%2f4.bp.blogspot.com%2f-hae1oTWRwvs%2fUh90QNPSHSI%2fAAAAAAAAFoQ%2fUSCM9fcoOCc%2fs1600%2fBackground-Picture-Html2.jpg&ehk=v1ni6keUvHzMeK%2b7nDuGy%2f4eAEcZifL8QkbXk9mpQWg%3d&risl=&pid=ImgRaw&r=0');">
+    <h1 style="color: red;">Get The Url</h1>
+    <h2>Click on the link to get this page url</h2>
+    <button type="button" onclick="getUrl();" color="blue">get Page URL</button>
+    <p id="demo"></p>
+    <script>
+        document.getElementById('demo').style.fontSize='30px';
+        document.getElementById('demo').style.color='orange';
+    let text="The url of this page is"+"<br><br>"+window.location.href;
+        function getUrl(){
+            document.getElementById("demo").innerHTML=text;
+        }
+    </script>
+    
+</body>
+</html>
